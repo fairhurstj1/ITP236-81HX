@@ -1,0 +1,15 @@
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\bin\Debug\net9.0\M1_OOP_Assignment_20260217.exe
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\bin\Debug\net9.0\M1_OOP_Assignment_20260217.deps.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\bin\Debug\net9.0\M1_OOP_Assignment_20260217.runtimeconfig.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\bin\Debug\net9.0\M1_OOP_Assignment_20260217.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\bin\Debug\net9.0\M1_OOP_Assignment_20260217.pdb
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\obj\Debug\net9.0\M1_OOP_Assignment_20260217.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\obj\Debug\net9.0\M1_OOP_Assignment_20260217.AssemblyInfoInputs.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\obj\Debug\net9.0\M1_OOP_Assignment_20260217.AssemblyInfo.cs
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\obj\Debug\net9.0\M1_OOP_Assignment_20260217.csproj.CoreCompileInputs.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\obj\Debug\net9.0\M1_OOP_Assignment_20260217.sourcelink.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\obj\Debug\net9.0\M1_OOP_Assignment_20260217.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\obj\Debug\net9.0\refint\M1_OOP_Assignment_20260217.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\obj\Debug\net9.0\M1_OOP_Assignment_20260217.pdb
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\obj\Debug\net9.0\M1_OOP_Assignment_20260217.genruntimeconfig.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\M1_OOP_Assignment_20260217\obj\Debug\net9.0\ref\M1_OOP_Assignment_20260217.dll
