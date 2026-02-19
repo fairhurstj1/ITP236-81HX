@@ -1,82 +1,89 @@
-﻿//create a class called State that includes the 50 USA states as a private array of strings. Include state code and pupulation.
-
-using System;
+﻿using System;
 using System.Collections.Generic;
-
+using System.Runtime.Serialization;
 namespace StateApp
 {
-    public class State
+    public class Program
     {
-        //Private array of states, state codes, and populations
-        private string[,] states = new string[50, 3]
+        static void Main(string[] args)
         {
-            {"Alabama", "AL", "4903185"},
-            {"Alaska", "AK", "731545"},
-            {"Arizona", "AZ", "7278717"},
-            {"Arkansas", "AR", "3017804"},
-            {"California", "CA", "39538223"},
-            {"Colorado", "CO", "5773714"},
-            {"Connecticut", "CT", "3605944"},
-            {"Delaware", "DE", "989948"},
-            {"Florida", "FL", "21538187"},
-            {"Georgia", "GA", "10711908"},
-            {"Hawaii", "HI", "1456341"},
-            {"Idaho", "ID", "1839106"},
-            {"Illinois", "IL", "12812508"},
-            {"Indiana", "IN", "6785528"},
-            {"Iowa", "IA", "3190369"},
-            {"Kansas", "KS", "2913314"},
-            {"Kentucky", "KY", "4505836"},
-            {"Louisiana", "LA", "4657757"},
-            {"Maine", "ME", "1364212"},
-            {"Maryland", "MD", "6177224"},
-            {"Massachusetts", "MA", "7029917"},
-            {"Michigan", "MI", "10077331"},
-            {"Minnesota", "MN", "5706494"},
-            {"Mississippi", "MS", "2961279"},
-            {"Missouri", "MO", "6154913"},
-            {"Montana", "MT", "1084225"},
-            {"Nebraska", "NE", "1961504"},
-            {"Nevada", "NV", "3104614"},
-            {"New Hampshire", "NH", "1377529"},
-            {"New Jersey", "NJ", "9288994"},
-            {"New Mexico", "NM", "2117522"},
-            {"New York", "NY", "20201249"},
-            {"North Carolina", "NC", "10439388"},
-            {"North Dakota", "ND", "779094"},
-            {"Ohio", "OH", "11799448"},
-            {"Oklahoma", "OK", "3956971"},
-            {"Oregon", "OR", "4237256"},
-            {"Pennsylvania", "PA", "13002700"},
-            {"Rhode Island", "RI", "1097379"},
-            {"South Carolina", "SC", "5118425"},
-            {"South Dakota", "SD", "886667"},
-            {"Tennessee", "TN", "6910840"},
-            {"Texas", "TX", "29145505"},
-            {"Utah", "UT", "3271616"},
-            {"Vermont", "VT", "643503"},
-            {"Virginia", "VA", "8631393"},
-            {"Washington", "WA", "7705281"},
-            {"West Virginia", "WV", "1793716"},
-            {"Wisconsin", "WI", "5893718"},
-            {"Wyoming", "WY", "576851"}
-        };//states array
+            //declare variables
+            int totalPopulation = 0;
+            
+            //Part 1
+            // Create a new state object
+            State PR = new State("*Puerto Rico*", "PR", 3200000);
 
-        //Provides a list of State objects
-        public static List<State> StateList{ get; }
+            //Retrieve the List of states
+            List<State> states = State.StateList;
 
-        //Provides a dictionary of State names. The key is the State Code
-        public static SortedDictionary<string, string> StatesDictionary{ get; }
+            //Add the new State object to the List
+            states.Add(PR);
 
-        //Provides a sorted list of State objects. The key is the State Code
-        public static SortedList<string, State> SortedStates{ get; }
+            //Display all states in the List
+            Console.WriteLine("List:");
+            Console.WriteLine("{0,-20}{1,-15}{2}", "State Name", "State Code", "Population");
+            foreach (State state in states)
+            {
+                Console.WriteLine("{0,-20}{1,-15}{2}", state.Name, state.Code, state.Population.ToString("N0"));
+            }//foreach
+            Console.WriteLine();
+            //Remove the new State object from the List
+            states.Remove(PR);
 
-        //Provides an integer list of state populations
-        public static List<int> StatePops{ get; }
+            //Part 2
+            //Retrieve the StateDictionary
+            SortedDictionary<string, string> stateDict = State.StatesDictionary;
 
-        //Main method
-        public static void Main(string[] args)
-        {}
+            //Add the new State name to the Dictionary
+            stateDict.Add(PR.Code, PR.Name);
 
-    }//class
-}//namespace
+            //Display each name in the Dictionary
+            Console.WriteLine("Dictionary:");
+            Console.WriteLine("{0,-20}{1}", "State Name", "State Code");
+            foreach (KeyValuePair<string, string> kvp in stateDict)
+            {
+                Console.WriteLine("{0,-20}{1,-10}", kvp.Value, kvp.Key);
+            }//foreach
+            Console.WriteLine();
+
+            //Remove the new State name from the Dictionary
+            stateDict.Remove(PR.Code);
+
+            //Part 3
+            //Retrieve the SortedList
+            SortedList<string, State> sortedStates = State.SortedStates;
+
+            //Add the new State object to the SortedList
+            sortedStates.Add(PR.Code, PR);
+
+            //Display each State in the SortedList
+            Console.WriteLine("SortedList:");
+            Console.WriteLine("{0,-20}{1,-15}{2}", "State Name", "State Code", "Population");
+            foreach (KeyValuePair<string, State> kvp in sortedStates)
+            {
+                State state = kvp.Value;
+                Console.WriteLine("{0,-20}{1,-15}{2}", state.Name, state.Code, state.Population.ToString("N0"));
+            }//foreach
+            Console.WriteLine();
+
+            //Remove the new State object from the SortedList
+            sortedStates.Remove(PR.Code);
+
+            //Part 4
+            //Retrieve the StatePops list of population integers
+            List<int> statePops = State.StatePops;
+
+            //Add the population for the new state that was added to the list
+            statePops.Add(PR.Population);
+
+            //Display the sum of the state populations
+            Console.WriteLine("Sum of StatePop:");
+            foreach (int pop in statePops)
+            {
+                totalPopulation += pop;
+            }//foreach
+            Console.WriteLine("Total Population: " + totalPopulation.ToString("N0"));
+        }//Main
+    }//Program
+}//Namespace

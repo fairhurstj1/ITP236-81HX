@@ -1,0 +1,15 @@
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\bin\Debug\net9.0\Week4CW.exe
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\bin\Debug\net9.0\Week4CW.deps.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\bin\Debug\net9.0\Week4CW.runtimeconfig.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\bin\Debug\net9.0\Week4CW.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\bin\Debug\net9.0\Week4CW.pdb
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\obj\Debug\net9.0\Week4CW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\obj\Debug\net9.0\Week4CW.AssemblyInfoInputs.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\obj\Debug\net9.0\Week4CW.AssemblyInfo.cs
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\obj\Debug\net9.0\Week4CW.csproj.CoreCompileInputs.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\obj\Debug\net9.0\Week4CW.sourcelink.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\obj\Debug\net9.0\Week4CW.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\obj\Debug\net9.0\refint\Week4CW.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\obj\Debug\net9.0\Week4CW.pdb
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\obj\Debug\net9.0\Week4CW.genruntimeconfig.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\Week4CW\obj\Debug\net9.0\ref\Week4CW.dll
