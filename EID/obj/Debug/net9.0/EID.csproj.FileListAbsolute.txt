@@ -1,0 +1,15 @@
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\bin\Debug\net9.0\EID.exe
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\bin\Debug\net9.0\EID.deps.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\bin\Debug\net9.0\EID.runtimeconfig.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\bin\Debug\net9.0\EID.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\bin\Debug\net9.0\EID.pdb
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\obj\Debug\net9.0\EID.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\obj\Debug\net9.0\EID.AssemblyInfoInputs.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\obj\Debug\net9.0\EID.AssemblyInfo.cs
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\obj\Debug\net9.0\EID.csproj.CoreCompileInputs.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\obj\Debug\net9.0\EID.sourcelink.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\obj\Debug\net9.0\EID.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\obj\Debug\net9.0\refint\EID.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\obj\Debug\net9.0\EID.pdb
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\obj\Debug\net9.0\EID.genruntimeconfig.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\EID\obj\Debug\net9.0\ref\EID.dll
