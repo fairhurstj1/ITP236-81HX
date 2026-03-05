@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EID", "EID\EID.csproj", "{CD8ADBF9-3DE2-4879-9F71-5648A57153CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ1", "LINQ1\LINQ1.csproj", "{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{CD8ADBF9-3DE2-4879-9F71-5648A57153CC}.Release|x64.Build.0 = Release|Any CPU
 		{CD8ADBF9-3DE2-4879-9F71-5648A57153CC}.Release|x86.ActiveCfg = Release|Any CPU
 		{CD8ADBF9-3DE2-4879-9F71-5648A57153CC}.Release|x86.Build.0 = Release|Any CPU
+		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Debug|x64.Build.0 = Debug|Any CPU
+		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Debug|x86.Build.0 = Debug|Any CPU
+		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Release|x64.ActiveCfg = Release|Any CPU
+		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Release|x64.Build.0 = Release|Any CPU
+		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Release|x86.ActiveCfg = Release|Any CPU
+		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

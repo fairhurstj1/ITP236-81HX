@@ -1,0 +1,15 @@
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\bin\Debug\net9.0\LINQ1.exe
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\bin\Debug\net9.0\LINQ1.deps.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\bin\Debug\net9.0\LINQ1.runtimeconfig.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\bin\Debug\net9.0\LINQ1.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\bin\Debug\net9.0\LINQ1.pdb
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\obj\Debug\net9.0\LINQ1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\obj\Debug\net9.0\LINQ1.AssemblyInfoInputs.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\obj\Debug\net9.0\LINQ1.AssemblyInfo.cs
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\obj\Debug\net9.0\LINQ1.csproj.CoreCompileInputs.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\obj\Debug\net9.0\LINQ1.sourcelink.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\obj\Debug\net9.0\LINQ1.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\obj\Debug\net9.0\refint\LINQ1.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\obj\Debug\net9.0\LINQ1.pdb
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\obj\Debug\net9.0\LINQ1.genruntimeconfig.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\LINQ1\obj\Debug\net9.0\ref\LINQ1.dll
