@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("W2CW_OOP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bc5276b3a8aab05b57bc6c23407aa2a69a5150e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae75176089d1d68e988e5dc161f55fa773c5a5f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("W2CW_OOP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("W2CW_OOP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

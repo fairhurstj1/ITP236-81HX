@@ -1,0 +1,15 @@
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\bin\Debug\net9.0\W2CW_OOP.exe
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\bin\Debug\net9.0\W2CW_OOP.deps.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\bin\Debug\net9.0\W2CW_OOP.runtimeconfig.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\bin\Debug\net9.0\W2CW_OOP.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\bin\Debug\net9.0\W2CW_OOP.pdb
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\W2CW_OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\W2CW_OOP.AssemblyInfoInputs.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\W2CW_OOP.AssemblyInfo.cs
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\W2CW_OOP.csproj.CoreCompileInputs.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\W2CW_OOP.sourcelink.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\W2CW_OOP.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\refint\W2CW_OOP.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\W2CW_OOP.pdb
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\W2CW_OOP.genruntimeconfig.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\ref\W2CW_OOP.dll
