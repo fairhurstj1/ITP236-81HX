@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EID", "EID\EID.csproj", "{C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ1", "LINQ1\LINQ1.csproj", "{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W2CW_OOP", "W2CW_OOP\W2CW_OOP.csproj", "{B4EBDAA7-14B2-41D7-85EF-42F940D07E69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Release|x64.Build.0 = Release|Any CPU
 		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Release|x86.ActiveCfg = Release|Any CPU
 		{661E5CC2-B101-45D9-9D8E-ECEA6569DF4F}.Release|x86.Build.0 = Release|Any CPU
+		{B4EBDAA7-14B2-41D7-85EF-42F940D07E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EBDAA7-14B2-41D7-85EF-42F940D07E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EBDAA7-14B2-41D7-85EF-42F940D07E69}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B4EBDAA7-14B2-41D7-85EF-42F940D07E69}.Debug|x64.Build.0 = Debug|Any CPU
+		{B4EBDAA7-14B2-41D7-85EF-42F940D07E69}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B4EBDAA7-14B2-41D7-85EF-42F940D07E69}.Debug|x86.Build.0 = Debug|Any CPU
+		{B4EBDAA7-14B2-41D7-85EF-42F940D07E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EBDAA7-14B2-41D7-85EF-42F940D07E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4EBDAA7-14B2-41D7-85EF-42F940D07E69}.Release|x64.ActiveCfg = Release|Any CPU
+		{B4EBDAA7-14B2-41D7-85EF-42F940D07E69}.Release|x64.Build.0 = Release|Any CPU
+		{B4EBDAA7-14B2-41D7-85EF-42F940D07E69}.Release|x86.ActiveCfg = Release|Any CPU
+		{B4EBDAA7-14B2-41D7-85EF-42F940D07E69}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
