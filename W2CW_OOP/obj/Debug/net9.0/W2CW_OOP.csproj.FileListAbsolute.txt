@@ -13,3 +13,10 @@ C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\refint\W2CW_
 C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\W2CW_OOP.pdb
 C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\W2CW_OOP.genruntimeconfig.cache
 C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\ref\W2CW_OOP.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\bin\Debug\net9.0\Week4CW.deps.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\bin\Debug\net9.0\Week4CW.runtimeconfig.json
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\bin\Debug\net9.0\Week4CW.exe
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\bin\Debug\net9.0\Week4CW.dll
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\bin\Debug\net9.0\Week4CW.pdb
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\W2CW_OOP.csproj.AssemblyReference.cache
+C:\Users\OL GREG\Source\repos\ITP236-81HX\W2CW_OOP\obj\Debug\net9.0\W2CW_OOP.csproj.Up2Date

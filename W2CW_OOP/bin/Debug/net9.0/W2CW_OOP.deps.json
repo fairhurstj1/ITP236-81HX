@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v9.0": {
       "W2CW_OOP/1.0.0": {
+        "dependencies": {
+          "Week4CW": "1.0.0"
+        },
         "runtime": {
           "W2CW_OOP.dll": {}
+        }
+      },
+      "Week4CW/1.0.0": {
+        "runtime": {
+          "Week4CW.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "W2CW_OOP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Week4CW/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

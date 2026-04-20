@@ -1,4 +1,5 @@
-﻿namespace Shapes
+﻿using Week4CW;
+namespace Shapes
 {
     class Program
     {
@@ -37,7 +38,7 @@
 
             List<Shape> shapes = new List<Shape>
             {
-                new Circle("My Circle", 5.0),
+                new Circle("My Circle".Right(6), 5.0),
                 new Rectangle("My Rectangle", 4.0, 6.0),
                 new Square("My Square", 4.0),
                 new Circle(3.0), // uses default name "Circle"
