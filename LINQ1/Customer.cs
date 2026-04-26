@@ -13,8 +13,24 @@ namespace LINQ_1
         public string Region { get; set; }
         public string City { get; set; }
         public string State { get; set; }
-        public double OrderTotal { get; }                   //--< Rewrite this to get the total order from the SalesOrders' OrderTotals using LINQ <<<
-        public int BackOrdered { get; }                     //--< Rewrite this to get the total quantity backordered (Quantity - Shipped)   <<<
+
+        //--< Rewrite this to get the total order from the SalesOrders' OrderTotals using LINQ <<<
+        public double OrderTotal
+        {
+            get
+            {
+                return SalesOrders.Sum(so => so.OrderTotal);
+            }
+        }
+
+        //--< Rewrite this to get the total quantity backordered (Quantity - Shipped)   <<<
+        public int BackOrdered
+        {
+            get
+            {
+                return SalesOrders.Sum(so => so.Quantity - so.Shipped);
+            }
+        }
         public List<SalesOrder> SalesOrders { get; set; }
         public Customer()
         {

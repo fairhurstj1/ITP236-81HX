@@ -1,26 +1,52 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("LINQ");
-int[] sevens = new int[] { 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 };
-// Use LINQ - Language Integrated Query
-int sum = sevens.Sum();
-int max = sevens.Max();
-double avg = sevens.Average();
-int min = sevens.Min();
-int count = sevens.Count();
-int first = sevens.First();
-int last = sevens.Last();
-int elementAt = sevens.ElementAt(3);
-int singleOrDefault = sevens.SingleOrDefault(x => x == 35);
-double standardDeviation = Math.Sqrt(sevens.Average(x => Math.Pow(x - avg, 2)));
-Console.WriteLine($"The sum of the sevens is {sum}");
-Console.WriteLine($"The max of the sevens is {max}");
-Console.WriteLine($"The average of the sevens is {avg}");
-Console.WriteLine($"The min of the sevens is {min}");
-Console.WriteLine($"The count of the sevens is {count}");
-Console.WriteLine($"The first element of the sevens is {first}");
-Console.WriteLine($"The last element of the sevens is {last}");
-Console.WriteLine($"The element at index 3 of the sevens is {elementAt}");
-Console.WriteLine($"The single or default element of the sevens that is 35 is {singleOrDefault}");
-Console.WriteLine($"The standard deviation of the sevens is {standardDeviation}");
+﻿
 
-//LINQ automatically attaches to C# projects allowing the user to use any LINQ properties automatically.
+namespace LINQ_1
+{
+    /// <summary>
+    /// Entry point for the LINQ1 application.
+    /// Demonstrates LINQ aggregate queries against a customer and sales order data set.
+    /// </summary>
+    class Program
+    {
+        /// <summary>
+        /// Iterates through all customers and displays individual order summaries,
+        /// then displays aggregate statistics across all customers.
+        /// </summary>
+        /// <param name="args">Command-line arguments (not used).</param>
+        static void Main(string[] args)
+        {
+            List<Customer> customers = CustomerData.Customers;
+            foreach (var customer in customers)
+            {
+                DisplayCustomer(customer);
+            }
+
+            double overallAverage = customers
+                .SelectMany(c => c.SalesOrders)
+                .Average(order => order.OrderTotal);
+            Customer topCustomer = customers
+                .OrderByDescending(c => c.OrderTotal)
+                .First();
+            Console.WriteLine("--- All Customers ---");
+            Console.WriteLine($"Average Order Size: {overallAverage:C}");
+            Console.WriteLine($"Highest Order Total Customer: {topCustomer.Name} ({topCustomer.OrderTotal:C})");
+        }
+
+        /// <summary>
+        /// Displays a summary for a single customer, including their total order amount,
+        /// total backordered quantity, and average order size.
+        /// </summary>
+        /// <param name="customer">The <see cref="Customer"/> to display.</param>
+        static void DisplayCustomer(Customer customer)
+        {
+            Console.WriteLine($"Customer: {customer.Name}");
+            Console.WriteLine($"Total Order Amount: {customer.OrderTotal:C}");
+            Console.WriteLine($"Total Backordered Quantity: {customer.BackOrdered}");
+            double averageSizeOrder = customer.SalesOrders.Any()
+                ? customer.SalesOrders.Average(order => order.OrderTotal)
+                : 0;
+            Console.WriteLine($"Average Size Order: {averageSizeOrder:C}");
+            Console.WriteLine();
+        }
+    }
+}
