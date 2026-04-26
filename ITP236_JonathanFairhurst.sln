@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collection", "Collection\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week7CW", "Week7CW\Week7CW.csproj", "{FACAA247-7053-4DDF-9554-52CBA1043DEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThinqLinqProject", "ThinqLinqProject\ThinqLinqProject.csproj", "{CAF8CE06-E923-4F23-A468-4178CA8248A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +157,18 @@ Global
 		{FACAA247-7053-4DDF-9554-52CBA1043DEA}.Release|x64.Build.0 = Release|Any CPU
 		{FACAA247-7053-4DDF-9554-52CBA1043DEA}.Release|x86.ActiveCfg = Release|Any CPU
 		{FACAA247-7053-4DDF-9554-52CBA1043DEA}.Release|x86.Build.0 = Release|Any CPU
+		{CAF8CE06-E923-4F23-A468-4178CA8248A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF8CE06-E923-4F23-A468-4178CA8248A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF8CE06-E923-4F23-A468-4178CA8248A8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CAF8CE06-E923-4F23-A468-4178CA8248A8}.Debug|x64.Build.0 = Debug|Any CPU
+		{CAF8CE06-E923-4F23-A468-4178CA8248A8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CAF8CE06-E923-4F23-A468-4178CA8248A8}.Debug|x86.Build.0 = Debug|Any CPU
+		{CAF8CE06-E923-4F23-A468-4178CA8248A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF8CE06-E923-4F23-A468-4178CA8248A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF8CE06-E923-4F23-A468-4178CA8248A8}.Release|x64.ActiveCfg = Release|Any CPU
+		{CAF8CE06-E923-4F23-A468-4178CA8248A8}.Release|x64.Build.0 = Release|Any CPU
+		{CAF8CE06-E923-4F23-A468-4178CA8248A8}.Release|x86.ActiveCfg = Release|Any CPU
+		{CAF8CE06-E923-4F23-A468-4178CA8248A8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
