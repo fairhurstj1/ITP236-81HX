@@ -15,18 +15,22 @@ namespace LINQ_1
         /// <param name="args">Command-line arguments (not used).</param>
         static void Main(string[] args)
         {
+            // Retrieve the list of customers from the data source
             List<Customer> customers = CustomerData.Customers;
+            // Display summary for each customer
             foreach (var customer in customers)
             {
                 DisplayCustomer(customer);
             }
-
+            // Display aggregate statistics across all customers
             double overallAverage = customers
                 .SelectMany(c => c.SalesOrders)
                 .Average(order => order.OrderTotal);
+            // Find the customer with the highest total order amount
             Customer topCustomer = customers
                 .OrderByDescending(c => c.OrderTotal)
                 .First();
+            // Display aggregate statistics
             Console.WriteLine("--- All Customers ---");
             Console.WriteLine($"Average Order Size: {overallAverage:C}");
             Console.WriteLine($"Highest Order Total Customer: {topCustomer.Name} ({topCustomer.OrderTotal:C})");
