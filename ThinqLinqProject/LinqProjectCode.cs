@@ -18,7 +18,9 @@ namespace ThinqLinqProject
         /// <summary>
         /// TotalCost is the sum of the SalesOrders' OrderCost
         /// </summary>
-        public decimal TotalCost => SalesOrders.SelectMany(so => so.SalesOrderParts).Sum(sop => sop.ExtendedCost);
+        public decimal TotalCost => SalesOrders
+            .SelectMany(so => so.SalesOrderParts)
+            .Sum(sop => sop.ExtendedCost);
         /// <summary>
         /// GrossProfit is the difference between TotalSales and TotalCost
         /// </summary>
@@ -89,7 +91,9 @@ namespace ThinqLinqProject
         /// <summary>
         /// CurrentValue =  Received Value - Spoiled Value -  Shipped Value
         /// </summary>
-        public decimal CurrentValue => new[] { ReceivedValue, -SpoiledValue, -ShippedValue }.Sum();
+        public decimal CurrentValue => new[] 
+            { ReceivedValue, -SpoiledValue, -ShippedValue }
+            .Sum();
         /// <summary>
         /// Amount Sold is the sum of the extended prices for the SalesOrderParts.
         /// </summary>
