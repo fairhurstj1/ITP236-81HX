@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThinqLinqProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6249dfcdaa0b08487e70f2499b4ddbb20409a6f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0b4acae3390e783180b79ca5009608b7f61749b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThinqLinqProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThinqLinqProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

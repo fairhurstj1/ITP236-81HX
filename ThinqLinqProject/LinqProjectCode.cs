@@ -89,11 +89,7 @@ namespace ThinqLinqProject
         /// <summary>
         /// CurrentValue =  Received Value - Spoiled Value -  Shipped Value
         /// </summary>
-        public decimal CurrentValue => 
-            new[] { QuantityOnHand }.Sum(q => q * Price);
-        /*
-        I followed the instructions given in the assignment (QuantityOnHand*Price) here.
-        */
+        public decimal CurrentValue => new[] { ReceivedValue, -SpoiledValue, -ShippedValue }.Sum();
         /// <summary>
         /// Amount Sold is the sum of the extended prices for the SalesOrderParts.
         /// </summary>
