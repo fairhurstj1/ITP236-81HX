@@ -1,0 +1,193 @@
+{
+		"Customers": [
+			{
+				"CustomerId": 101,
+				"FirstName": "James",
+				"LastName": "River",
+				"City": "Richmond",
+				"State": "VA",
+				"CustomerType": 1
+			},
+			{
+				"CustomerId": 102,
+				"FirstName": "Hugh",
+				"LastName": "Gaknot",
+				"City": "Salt Lake City",
+				"State": "UT",
+				"CustomerType": 2
+			},
+			{
+				"CustomerId": 103,
+				"FirstName": "Skip",
+				"LastName": "Wythe",
+				"City": "Philadelphia",
+				"State": "PA",
+				"CustomerType": 3
+			},
+			{
+				"CustomerId": 104,
+				"FirstName": "Maggie",
+				"LastName": "Walker",
+				"City": "Charlotte",
+				"State": "NC",
+				"CustomerType": 5
+			},
+			{
+				"CustomerId": 105,
+				"FirstName": "Chip",
+				"LastName": "Enhamm",
+				"City": "Richmond",
+				"State": "VA",
+				"CustomerType": 4
+			}
+		],
+		"Parts": [
+			{
+				"PartId": 201,
+				"Name": "Gadget Large",
+				"Price": 24.95,
+				"ReceivedUnits": 128,
+				"ShippedUnits": 48,
+				"SpoiledUnits": 3,
+				"ReceivedValue": 2404.73,
+				"ShippedValue": 844.37,
+				"SpoiledValue": 44.73
+			},
+			{
+				"PartId": 202,
+				"Name": "Gadget Medium",
+				"Price": 21.95,
+				"ReceivedUnits": 508,
+				"ShippedUnits": 414,
+				"SpoiledUnits": 5,
+				"ReceivedValue": 5018.37,
+				"ShippedValue": 4029.23,
+				"SpoiledValue": 54.57
+			},
+			{
+				"PartId": 203,
+				"Name": "Gadget Small",
+				"Price": 17.95,
+				"ReceivedUnits": 398,
+				"ShippedUnits": 348,
+				"SpoiledUnits": 13,
+				"ReceivedValue": 3603.17,
+				"ShippedValue": 3118.17,
+				"SpoiledValue": 124.28
+			}
+		],
+		"SalesOrders": [
+			{
+				"SalesOrderNumber": 301,
+				"CustomerId": 101,
+				"OrderDate": "2025-01-13"
+			},
+			{
+				"SalesOrderNumber": 302,
+				"CustomerId": 101,
+				"OrderDate": "2025-02-13"
+			},
+			{
+				"SalesOrderNumber": 303,
+				"CustomerId": 102,
+				"OrderDate": "2025-02-18"
+			},
+			{
+				"SalesOrderNumber": 304,
+				"CustomerId": 102,
+				"OrderDate": "2025-02-23"
+			},
+			{
+				"SalesOrderNumber": 305,
+				"CustomerId": 103,
+				"OrderDate": "2025-01-23"
+			},
+			{
+				"SalesOrderNumber": 306,
+				"CustomerId": 105,
+				"OrderDate": "2025-03-01"
+			}
+		],
+		"SalesOrderParts": [
+			{
+				"SalesOrderNumber": 301,
+				"PartId": 202,
+				"Quantity": 22,
+				"UnitsShipped": 20,
+				"UnitPrice": 21.95,
+				"UnitCost": 11.18
+			},
+			{
+				"SalesOrderNumber": 301,
+				"PartId": 203,
+				"Quantity": 2,
+				"UnitsShipped": 0,
+				"UnitPrice": 17.95,
+				"UnitCost": 8.18
+			},
+			{
+				"SalesOrderNumber": 302,
+				"PartId": 203,
+				"Quantity": 1,
+				"UnitsShipped": 1,
+				"UnitPrice": 17.95,
+				"UnitCost": 8.19
+			},
+			{
+				"SalesOrderNumber": 303,
+				"PartId": 201,
+				"Quantity": 4,
+				"UnitsShipped": 1,
+				"UnitPrice": 24.95,
+				"UnitCost": 13.20
+			},
+			{
+				"SalesOrderNumber": 303,
+				"PartId": 203,
+				"Quantity": 14,
+				"UnitsShipped": 14,
+				"UnitPrice": 16.45,
+				"UnitCost": 8.20
+			},
+			{
+				"SalesOrderNumber": 304,
+				"PartId": 201,
+				"Quantity": 5,
+				"UnitsShipped": 3,
+				"UnitPrice": 24.95,
+				"UnitCost": 13.20
+			},
+			{
+				"SalesOrderNumber": 304,
+				"PartId": 203,
+				"Quantity": 14,
+				"UnitsShipped": 14,
+				"UnitPrice": 16.45,
+				"UnitCost": 8.20
+			},
+			{
+				"SalesOrderNumber": 305,
+				"PartId": 202,
+				"Quantity": 22,
+				"UnitsShipped": 22,
+				"UnitPrice": 21.55,
+				"UnitCost": 11.18
+			},
+			{
+				"SalesOrderNumber": 305,
+				"PartId": 203,
+				"Quantity": 14,
+				"UnitsShipped": 14,
+				"UnitPrice": 16.45,
+				"UnitCost": 8.20
+			},
+			{
+				"SalesOrderNumber": 306,
+				"PartId": 203,
+				"Quantity": 10,
+				"UnitsShipped": 0,
+				"UnitPrice": 17.80,
+				"UnitCost": 8.25
+			}
+		]
+}

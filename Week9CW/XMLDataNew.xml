@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Customers>
+  <Customer>
+    <CustomerId>101</CustomerId>
+    <Name>James River</Name>
+    <TotalSales>536.75</TotalSales>
+    <ItemSold>25</ItemSold>
+    <Orders>2</Orders>
+    <Items>
+      <Part>
+        <PartId>202</PartId>
+        <Part>Gadget Medium</Part>
+        <Amount>482.90</Amount>
+        <Quantity>22</Quantity>
+        <Shipped>20</Shipped>
+        <BackOrdered>2</BackOrdered>
+      </Part>
+      <Part>
+        <PartId>203</PartId>
+        <Part>Gadget Small</Part>
+        <Amount>53.85</Amount>
+        <Quantity>3</Quantity>
+        <Shipped>1</Shipped>
+        <BackOrdered>2</BackOrdered>
+      </Part>
+    </Items>
+  </Customer>
+  <Customer>
+    <CustomerId>102</CustomerId>
+    <Name>Hugh Gaknot</Name>
+    <TotalSales>685.15</TotalSales>
+    <ItemSold>37</ItemSold>
+    <Orders>2</Orders>
+    <Items>
+      <Part>
+        <PartId>201</PartId>
+        <Part>Gadget Large</Part>
+        <Amount>224.55</Amount>
+        <Quantity>9</Quantity>
+        <Shipped>4</Shipped>
+        <BackOrdered>5</BackOrdered>
+      </Part>
+      <Part>
+        <PartId>203</PartId>
+        <Part>Gadget Small</Part>
+        <Amount>460.60</Amount>
+        <Quantity>28</Quantity>
+        <Shipped>28</Shipped>
+        <BackOrdered>0</BackOrdered>
+      </Part>
+    </Items>
+  </Customer>
+  <Customer>
+    <CustomerId>103</CustomerId>
+    <Name>Skip Wythe</Name>
+    <TotalSales>704.40</TotalSales>
+    <ItemSold>36</ItemSold>
+    <Orders>1</Orders>
+    <Items>
+      <Part>
+        <PartId>202</PartId>
+        <Part>Gadget Medium</Part>
+        <Amount>474.10</Amount>
+        <Quantity>22</Quantity>
+        <Shipped>22</Shipped>
+        <BackOrdered>0</BackOrdered>
+      </Part>
+      <Part>
+        <PartId>203</PartId>
+        <Part>Gadget Small</Part>
+        <Amount>230.30</Amount>
+        <Quantity>14</Quantity>
+        <Shipped>14</Shipped>
+        <BackOrdered>0</BackOrdered>
+      </Part>
+    </Items>
+  </Customer>
+  <Customer>
+    <CustomerId>104</CustomerId>
+    <Name>Maggie Walker</Name>
+    <TotalSales>0</TotalSales>
+    <ItemSold>0</ItemSold>
+    <Orders>0</Orders>
+    <Items />
+  </Customer>
+  <Customer>
+    <CustomerId>105</CustomerId>
+    <Name>Chip Enhamm</Name>
+    <TotalSales>178.00</TotalSales>
+    <ItemSold>10</ItemSold>
+    <Orders>1</Orders>
+    <Items>
+      <Part>
+        <PartId>203</PartId>
+        <Part>Gadget Small</Part>
+        <Amount>178.00</Amount>
+        <Quantity>10</Quantity>
+        <Shipped>0</Shipped>
+        <BackOrdered>10</BackOrdered>
+      </Part>
+    </Items>
+  </Customer>
+</Customers>

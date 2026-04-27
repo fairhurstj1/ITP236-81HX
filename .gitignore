@@ -1,0 +1,18 @@
+# Build output folders
+**/[Bb]in/
+**/[Oo]bj/
+
+# User/IDE files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build and run logs
+*.log
+
+# Local secrets (keep these out of source control)
+**/App.config.local
+**/.env
+**/.env.*
+!**/.env.example
