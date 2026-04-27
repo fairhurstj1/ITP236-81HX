@@ -1,0 +1,588 @@
+{
+  "SportsModel": {
+    "Teams": [
+      {
+        "TeamId": 1,
+        "Name": "Squirrels",
+        "ShortName": "Sqrls",
+        "Rosters": [
+          {
+            "RosterId": 3,
+            "PlayerId": 2,
+            "Player": {
+              "PlayerId": 2,
+              "FirstName": "James",
+              "LastName": "River",
+              "IsActivePlayer": 1,
+              "Email": "JRiver@gmail.com",
+              "Phone": "8048577346",
+              "NickName": "Jimmy",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23201"
+            }
+          },
+          {
+            "RosterId": 11,
+            "PlayerId": 10,
+            "Player": {
+              "PlayerId": 10,
+              "FirstName": "Chip",
+              "LastName": "Enham",
+              "IsActivePlayer": 1,
+              "Email": "CEnham@gmail.com",
+              "Phone": "8047930379",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 19,
+            "PlayerId": 18,
+            "Player": {
+              "PlayerId": 18,
+              "FirstName": "Mr.",
+              "LastName": "Bojangles",
+              "IsActivePlayer": 1,
+              "Email": "MBojangles@gmail.com",
+              "Phone": "8047455519",
+              "NickName": "Dancer",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 27,
+            "PlayerId": 26,
+            "Player": {
+              "PlayerId": 26,
+              "FirstName": "Shockoe",
+              "LastName": "Bottom",
+              "IsActivePlayer": 1,
+              "Email": "SBottom@gmail.com",
+              "Phone": "8045957864",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          }
+        ]
+      },
+      {
+        "TeamId": 2,
+        "Name": "Goats",
+        "ShortName": "Goats",
+        "Rosters": [
+          {
+            "RosterId": 4,
+            "PlayerId": 3,
+            "Player": {
+              "PlayerId": 3,
+              "FirstName": "Hugh",
+              "LastName": "Gaknot",
+              "IsActivePlayer": 1,
+              "Email": "HGaknot@gmail.com",
+              "Phone": "8041542849",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 12,
+            "PlayerId": 11,
+            "Player": {
+              "PlayerId": 11,
+              "FirstName": "Anna",
+              "LastName": "Lake",
+              "IsActivePlayer": 1,
+              "Email": "ALake@gmail.com",
+              "Phone": "8047384590",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23124"
+            }
+          },
+          {
+            "RosterId": 20,
+            "PlayerId": 19,
+            "Player": {
+              "PlayerId": 19,
+              "FirstName": "Belle",
+              "LastName": "Isle",
+              "IsActivePlayer": 0,
+              "Email": "BIsle@gmail.com",
+              "Phone": "8040036339",
+              "IsOptInEmail": 0,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 28,
+            "PlayerId": 27,
+            "Player": {
+              "PlayerId": 27,
+              "FirstName": "Branch",
+              "LastName": "House",
+              "IsActivePlayer": 1,
+              "Email": "BHouse@gmail.com",
+              "Phone": "8047594970",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          }
+        ]
+      },
+      {
+        "TeamId": 3,
+        "Name": "Rubber Ducks",
+        "ShortName": "Ducks",
+        "Rosters": [
+          {
+            "RosterId": 5,
+            "PlayerId": 4,
+            "Player": {
+              "PlayerId": 4,
+              "FirstName": "Tre'",
+              "LastName": "de Gar",
+              "IsActivePlayer": 1,
+              "Email": "TdeGar@gmail.com",
+              "Phone": "8046888578",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 13,
+            "PlayerId": 12,
+            "Player": {
+              "PlayerId": 12,
+              "FirstName": "Shorty",
+              "LastName": "Pump",
+              "IsActivePlayer": 1,
+              "Email": "SPump@gmail.com",
+              "Phone": "8040928415",
+              "NickName": "Shorty",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 21,
+            "PlayerId": 20,
+            "Player": {
+              "PlayerId": 20,
+              "FirstName": "Shockoe",
+              "LastName": "Slip",
+              "IsActivePlayer": 1,
+              "Email": "SSlip@gmail.com",
+              "Phone": "8047150677",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 29,
+            "PlayerId": 28,
+            "Player": {
+              "PlayerId": 28,
+              "FirstName": "Monti",
+              "LastName": "Cello",
+              "IsActivePlayer": 1,
+              "Email": "MCello@gmail.com",
+              "Phone": "8040668536",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          }
+        ]
+      },
+      {
+        "TeamId": 4,
+        "Name": "Sea Wolves",
+        "ShortName": "Wolves",
+        "Rosters": [
+          {
+            "RosterId": 6,
+            "PlayerId": 5,
+            "Player": {
+              "PlayerId": 5,
+              "FirstName": "Church",
+              "LastName": "Hill",
+              "IsActivePlayer": 1,
+              "Email": "CHill@gmail.com",
+              "Phone": "8042606889",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23244"
+            }
+          },
+          {
+            "RosterId": 14,
+            "PlayerId": 13,
+            "Player": {
+              "PlayerId": 13,
+              "FirstName": "Lewis",
+              "LastName": "Ginter",
+              "IsActivePlayer": 1,
+              "Email": "LGinter@gmail.com",
+              "Phone": "8043575285",
+              "IsOptInEmail": 0,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 22,
+            "PlayerId": 21,
+            "Player": {
+              "PlayerId": 21,
+              "FirstName": "Bryan",
+              "LastName": "Park",
+              "IsActivePlayer": 1,
+              "Email": "BPark@gmail.com",
+              "Phone": "8041320115",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 30,
+            "PlayerId": 29,
+            "Player": {
+              "PlayerId": 29,
+              "FirstName": "Carrie",
+              "LastName": "Town",
+              "IsActivePlayer": 1,
+              "Email": "CTown@gmail.com",
+              "Phone": "8048550489",
+              "IsOptInEmail": 0,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          }
+        ]
+      },
+      {
+        "TeamId": 5,
+        "Name": "Shuckers",
+        "ShortName": "Shckr",
+        "Rosters": [
+          {
+            "RosterId": 7,
+            "PlayerId": 6,
+            "Player": {
+              "PlayerId": 6,
+              "FirstName": "Skip",
+              "LastName": "Wythe",
+              "IsActivePlayer": 1,
+              "Email": "SWythe@gmail.com",
+              "Phone": "8040595917",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 15,
+            "PlayerId": 14,
+            "Player": {
+              "PlayerId": 14,
+              "FirstName": "Mae",
+              "LastName": "Mont",
+              "IsActivePlayer": 1,
+              "Email": "MMont@gmail.com",
+              "Phone": "8049295481",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23142"
+            }
+          },
+          {
+            "RosterId": 23,
+            "PlayerId": 22,
+            "Player": {
+              "PlayerId": 22,
+              "FirstName": "Libbie",
+              "LastName": "Park",
+              "IsActivePlayer": 1,
+              "Email": "LPark@gmail.com",
+              "Phone": "8045847115",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 31,
+            "PlayerId": 30,
+            "Player": {
+              "PlayerId": 30,
+              "FirstName": "James",
+              "LastName": "Town",
+              "IsActivePlayer": 1,
+              "Email": "JTown@gmail.com",
+              "Phone": "8046753999",
+              "NickName": "Jim",
+              "IsOptInEmail": 0,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          }
+        ]
+      },
+      {
+        "TeamId": 6,
+        "Name": "Iron Birds",
+        "ShortName": "Birds",
+        "Rosters": [
+          {
+            "RosterId": 8,
+            "PlayerId": 7,
+            "Player": {
+              "PlayerId": 7,
+              "FirstName": "Maggie",
+              "LastName": "Walker",
+              "IsActivePlayer": 1,
+              "Email": "MWalker@gmail.com",
+              "Phone": "8040876245",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 16,
+            "PlayerId": 15,
+            "Player": {
+              "PlayerId": 15,
+              "FirstName": "Holly",
+              "LastName": "Wood",
+              "IsActivePlayer": 1,
+              "Email": "HWood@gmail.com",
+              "Phone": "8040839472",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 24,
+            "PlayerId": 23,
+            "Player": {
+              "PlayerId": 23,
+              "FirstName": "Ponie",
+              "LastName": "Pasture",
+              "IsActivePlayer": 1,
+              "Email": "PPasture@gmail.com",
+              "Phone": "8044861723",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 32,
+            "PlayerId": 31,
+            "Player": {
+              "PlayerId": 31,
+              "FirstName": "Jackson",
+              "LastName": "Ward",
+              "IsActivePlayer": 1,
+              "Email": "JWard@gmail.com",
+              "Phone": "8046551311",
+              "NickName": "Sarge",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          }
+        ]
+      },
+      {
+        "TeamId": 7,
+        "Name": "Tides",
+        "ShortName": "Tides",
+        "Rosters": [
+          {
+            "RosterId": 9,
+            "PlayerId": 8,
+            "Player": {
+              "PlayerId": 8,
+              "FirstName": "Glen",
+              "LastName": "Syde",
+              "IsActivePlayer": 1,
+              "Email": "GSyde@gmail.com",
+              "Phone": "8040445937",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23123"
+            }
+          },
+          {
+            "RosterId": 17,
+            "PlayerId": 16,
+            "Player": {
+              "PlayerId": 16,
+              "FirstName": "E.A.",
+              "LastName": "Poe",
+              "IsActivePlayer": 1,
+              "Email": "EPoe@gmail.com",
+              "Phone": "8041991961",
+              "NickName": "Edgar",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23010"
+            }
+          },
+          {
+            "RosterId": 25,
+            "PlayerId": 24,
+            "Player": {
+              "PlayerId": 24,
+              "FirstName": "Forest",
+              "LastName": "Hill",
+              "IsActivePlayer": 1,
+              "Email": "FHill@gmail.com",
+              "Phone": "8042433611",
+              "NickName": "Tiny",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 33,
+            "PlayerId": 32,
+            "Player": {
+              "PlayerId": 32,
+              "FirstName": "John",
+              "LastName": "Tyler",
+              "IsActivePlayer": 1,
+              "Email": "JTyler@gmail.com",
+              "Phone": "8043448866",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          }
+        ]
+      },
+      {
+        "TeamId": 8,
+        "Name": "Bananas",
+        "ShortName": "Nanas",
+        "Rosters": [
+          {
+            "RosterId": 10,
+            "PlayerId": 9,
+            "Player": {
+              "PlayerId": 9,
+              "FirstName": "Pat",
+              "LastName": "Terson",
+              "IsActivePlayer": 1,
+              "Email": "PTerson@gmail.com",
+              "Phone": "8042434311",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 18,
+            "PlayerId": 17,
+            "Player": {
+              "PlayerId": 17,
+              "FirstName": "John",
+              "LastName": "Marshall",
+              "IsActivePlayer": 1,
+              "Email": "JMarshall@gmail.com",
+              "Phone": "8041356807",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 26,
+            "PlayerId": 25,
+            "Player": {
+              "PlayerId": 25,
+              "FirstName": "Poe",
+              "LastName": "White",
+              "IsActivePlayer": 1,
+              "Email": "PWhite@gmail.com",
+              "Phone": "8046497235",
+              "IsOptInEmail": 1,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          },
+          {
+            "RosterId": 34,
+            "PlayerId": 33,
+            "Player": {
+              "PlayerId": 33,
+              "FirstName": "Glen",
+              "LastName": "Allen",
+              "IsActivePlayer": 1,
+              "Email": "GAllen@gmail.com",
+              "Phone": "8049875770",
+              "IsOptInEmail": 0,
+              "BirthDate": "1950-09-01T00:00:00",
+              "City": "Richmond",
+              "ZipCode": "23232"
+            }
+          }
+        ]
+      },
+      {
+        "TeamId": 9,
+        "Name": "Rangers",
+        "ShortName": "Bang",
+        "Rosters": []
+      }
+    ]
+  }
+}
+
