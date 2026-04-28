@@ -1,0 +1,2 @@
+I've censored the appsettings.json file to remove the API key for security reasons. Please make sure to replace the placeholder with your actual API key before running the application.
+I also reset the migration like you did in class in order to remove any potential issues with the database. I've included an extra migration after an adjustment to demonstrate the functionality.
