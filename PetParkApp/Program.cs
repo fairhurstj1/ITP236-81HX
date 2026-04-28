@@ -35,7 +35,7 @@ foreach (var pet in allPets)
 Console.WriteLine();
 Console.WriteLine($"Total Pets: {db.Pets.Count()}  |  Total Tricks: {db.Tricks.Count()}");
 Console.WriteLine("----------------------------------------");
-Console.WriteLine("Commands: pets | tricks | links | inserts | deletes | exit");
+Console.WriteLine("Commands: pets | tricks | links | inserts | deletes | cleanup | exit");
 
 while (true)
 {
@@ -86,27 +86,110 @@ while (true)
                 break;
 
             case "inserts":
-                var newPet = new Pet { Name = "Max", Species = "Rabbit" };
-                var newTrick = new Trick { Name = "Spin", DifficultyLevel = "Easy" };
-                db.Pets.Add(newPet);
-                db.Tricks.Add(newTrick);
+                var pet = db.Pets
+                    .Include(p => p.Tricks)
+                    .FirstOrDefault(p => p.Name == "Max" && p.Species == "Rabbit");
+
+                if (pet is null)
+                {
+                    pet = new Pet { Name = "Max", Species = "Rabbit" };
+                    db.Pets.Add(pet);
+                }
+
+                var trick = db.Tricks
+                    .FirstOrDefault(t => t.Name == "Spin" && t.DifficultyLevel == "Easy");
+
+                if (trick is null)
+                {
+                    trick = new Trick { Name = "Spin", DifficultyLevel = "Easy" };
+                    db.Tricks.Add(trick);
+                }
+
+                var hasLink = pet.Tricks.Any(t => t.Name == trick.Name && t.DifficultyLevel == trick.DifficultyLevel);
+                if (!hasLink)
+                {
+                    pet.Tricks.Add(trick);
+                }
+
                 db.SaveChanges();
-                newPet.Tricks.Add(newTrick);
-                db.SaveChanges();
-                Console.WriteLine($"Inserted {newPet.Name} and {newTrick.Name}.");
+                Console.WriteLine($"Insert complete: {pet.Name} and {trick.Name} are in the database, and their link is set.");
                 break;
 
             case "deletes":
                 var lastPet = db.Pets
                     .Include(p => p.Tricks)
-                    .OrderBy(p => p.PetId).Last();
+                    .OrderBy(p => p.PetId)
+                    .LastOrDefault();
+                if (lastPet is null)
+                {
+                    Console.WriteLine("No pets available to delete.");
+                    break;
+                }
                 db.Pets.Remove(lastPet);
                 db.SaveChanges();
                 Console.WriteLine($"Deleted {lastPet.Name}.");
                 break;
 
+            case "cleanup":
+                var removedPets = 0;
+                var removedTricks = 0;
+
+                // Keep lowest PetId for duplicate Max (Rabbit) records and move links before delete.
+                var duplicateMaxPets = db.Pets
+                    .Include(p => p.Tricks)
+                    .Where(p => p.Name == "Max" && p.Species == "Rabbit")
+                    .OrderBy(p => p.PetId)
+                    .ToList();
+
+                if (duplicateMaxPets.Count > 1)
+                {
+                    var keepPet = duplicateMaxPets.First();
+                    foreach (var duplicatePet in duplicateMaxPets.Skip(1))
+                    {
+                        foreach (var dtrick in duplicatePet.Tricks.ToList())
+                        {
+                            if (!keepPet.Tricks.Any(t => t.TrickId == dtrick.TrickId))
+                            {
+                                keepPet.Tricks.Add(dtrick);
+                            }
+                        }
+
+                        db.Pets.Remove(duplicatePet);
+                        removedPets++;
+                    }
+                }
+
+                // Keep lowest TrickId for duplicate Spin (Easy) records and move links before delete.
+                var duplicateSpinTricks = db.Tricks
+                    .Include(t => t.Pets)
+                    .Where(t => t.Name == "Spin" && t.DifficultyLevel == "Easy")
+                    .OrderBy(t => t.TrickId)
+                    .ToList();
+
+                if (duplicateSpinTricks.Count > 1)
+                {
+                    var keepTrick = duplicateSpinTricks.First();
+                    foreach (var duplicateTrick in duplicateSpinTricks.Skip(1))
+                    {
+                        foreach (var petRef in duplicateTrick.Pets.ToList())
+                        {
+                            if (!petRef.Tricks.Any(t => t.TrickId == keepTrick.TrickId))
+                            {
+                                petRef.Tricks.Add(keepTrick);
+                            }
+                        }
+
+                        db.Tricks.Remove(duplicateTrick);
+                        removedTricks++;
+                    }
+                }
+
+                db.SaveChanges();
+                Console.WriteLine($"Cleanup complete. Removed duplicate pets: {removedPets}; removed duplicate tricks: {removedTricks}.");
+                break;
+
             default:
-                Console.WriteLine("Unknown command. Try: pets | tricks | links | inserts | deletes | exit");
+                Console.WriteLine("Unknown command. Try: pets | tricks | links | inserts | deletes | cleanup | exit");
                 break;
         }
     }

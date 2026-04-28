@@ -2,8 +2,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace PetParkModel;
 
+/// <summary>
+/// Provides model seed data for pets, tricks, and their many-to-many links.
+/// </summary>
 public static class SeedData
 {
+    /// <summary>
+    /// Applies static seed data to the EF Core model.
+    /// </summary>
+    /// <param name="modelBuilder">The model builder used to configure seed entries.</param>
     public static void Seed(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Pet>().HasData(
