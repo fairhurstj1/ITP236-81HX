@@ -1,6 +1,8 @@
+//#define Logging
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using PetParkModel;
 
 /// <summary>
@@ -15,16 +17,42 @@ public class PetParkContextFactory : IDesignTimeDbContextFactory<PetParkContext>
     /// <returns>A configured <see cref="PetParkContext"/> instance.</returns>
     public PetParkContext CreateDbContext(string[] args)
     {
+        // EF tools call this at design time, so load configuration from appsettings files.
         var config = new ConfigurationBuilder()
-            .SetBasePath(AppContext.BaseDirectory)
-            .AddJsonFile("appsettings.json", optional: false)
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json", optional: true)
+            .AddJsonFile("appsettings.Development.json", optional: true)
             .Build();
 
         var connectionString = config.GetConnectionString("PetParkDb");
+        if (string.IsNullOrWhiteSpace(connectionString))
+        {
+            connectionString = Environment.GetEnvironmentVariable("PETPARKDB_CONNECTION");
+        }
+
+        if (string.IsNullOrWhiteSpace(connectionString))
+        {
+            throw new InvalidOperationException(
+                "No PetPark connection string configured. Set ConnectionStrings:PetParkDb or PETPARKDB_CONNECTION.");
+        }
 
         var optionsBuilder = new DbContextOptionsBuilder<PetParkContext>();
         optionsBuilder.UseSqlServer(connectionString);
 
+#if Logging
+        // Optional SQL command logging for debugging and grading demos.
+        var loggerFactory = LoggerFactory.Create(builder =>
+        {
+            builder
+                .AddFilter((category, level) =>
+                    category == DbLoggerCategory.Database.Command.Name &&
+                    level == LogLevel.Information)
+                .AddConsole();
+        });
+
+        return new PetParkContext(optionsBuilder.Options, loggerFactory);
+#else
         return new PetParkContext(optionsBuilder.Options);
+#endif
     }
 }
